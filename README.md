@@ -10,15 +10,15 @@ El proyecto inicia como un "lienzo en blanco" (terreno despejado y carretera) do
 
 ## ✨ Características Principales
 
-* **🗺️ Lienzo Despejado:** Escenario inicial vacío optimizado para que el usuario construya su nivel desde cero.
-* **🖱️ Sandbox Interactivo (Raycasting):** Barra de herramientas 2D que permite seleccionar objetos y posicionarlos en el mundo 3D haciendo clic directamente sobre el terreno usando transformación de coordenadas (`gluUnProject`).
-* **🌀 Renderizado de Fractales:** Generación paramétrica y recursiva de estructuras matemáticas complejas, incluyendo:
+* **Lienzo Despejado:** Escenario inicial vacío optimizado para que el usuario construya su nivel desde cero.
+* **Sandbox Interactivo (Raycasting):** Barra de herramientas 2D que permite seleccionar objetos y posicionarlos en el mundo 3D haciendo clic directamente sobre el terreno usando transformación de coordenadas (`gluUnProject`).
+* **Renderizado de Fractales:** Generación paramétrica y recursiva de estructuras matemáticas complejas, incluyendo:
   * Helecho Fractal
   * Triángulo de Sierpinski 
   * Cubo de Menger 
-* **🚗 Modelo 3D y Controles:** Vehículo interactivo con controles de aceleración, frenado, rotación, fricción e inercia. Incluye penalización de velocidad al salir del asfalto hacia el césped.
-* **🌓 Iluminación y Ciclo Día/Noche:** Transición automatizada de luz y color del cielo basada en la posición del vehículo, incluyendo sol diurno y simulación de luz lunar.
-* **🌑 Sombras Dinámicas:** Sistema de proyección de sombras planas calculando la intersección geométrica con el suelo según la posición de la fuente de luz y del objeto.
+* **Modelo 3D y Controles:** Vehículo interactivo con controles de aceleración, frenado, rotación, fricción e inercia. Incluye penalización de velocidad al salir del asfalto hacia el césped.
+* **Iluminación y Ciclo Día/Noche:** Transición automatizada de luz y color del cielo basada en la posición del vehículo, incluyendo sol diurno y simulación de luz lunar.
+* **Sombras Dinámicas:** Sistema de proyección de sombras planas calculando la intersección geométrica con el suelo según la posición de la fuente de luz y del objeto.
 
 ## 🛠️ Requisitos Previos
 
